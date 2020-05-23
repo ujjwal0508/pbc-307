@@ -7,7 +7,6 @@ public class Heap<T extends Comparable<T>> {
 	
 	private List<T> data;
 	private boolean isMin;
-	//One more class property.
 
 	public Heap(boolean isMin) {
 		this.data = new ArrayList<>();
