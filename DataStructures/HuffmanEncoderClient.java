@@ -14,7 +14,7 @@ public class HuffmanEncoderClient {
 		
 		String encoded = huffman.encode("bacce");
 		System.out.println(encoded);
-		String decoded = huffman.decode("1011011011010");
+		String decoded = huffman.decode(encoded);
 		System.out.println(decoded);
 	}
 
